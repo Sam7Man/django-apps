@@ -109,7 +109,7 @@ WSGI_APPLICATION = 'djangostripe.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'django_subscriptions',
+        'NAME': 'django-subscriptions',
         'USER': 'postgres',
         'PASSWORD': 'root',
         'HOST': 'localhost',
