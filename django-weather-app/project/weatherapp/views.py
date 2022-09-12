@@ -15,7 +15,7 @@ def index(request):
 
     appid = 'b3fbfdc6bd795970734a975b5779173e'
     URL = 'https://api.openweathermap.org/data/2.5/weather'
-    PARAMS = {'q': city, 'units': 'metric', 'lang': 'id', 'appid': appid}
+    PARAMS = {'q': city, 'units': 'metric', 'appid': appid}
 
     req = requests.get(url=URL, params=PARAMS)
     res = req.json()
